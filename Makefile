@@ -1,1 +1,2 @@
-include Project/Project.mk
+.ONESHELL:
+-include Project/Project.mk
