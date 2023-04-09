@@ -1,0 +1,19 @@
+* Automatic generation of entry-points scripts
+
+Note, that the entry point scripts are rather stereo-typical. The do
+not do much, actually.
+
+So, sbcl-script might provide make based (?) infrastructure that
+creates those scripts from nothing (or rather, just a definition of
+the entry points).
+
+* Creating projects from templates
+
+Most of the project is actually in the *.asd and the
+Makefile. sbcl-script (or another dedicated) package could provide a
+way to initialize a project by expanding a template.
+
+This would create the Makefile (with project integration) and the
+*.asd (following the other conventions, like load-all, etc).
+
+

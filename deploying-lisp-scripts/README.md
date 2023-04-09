@@ -1,15 +1,21 @@
-Public PoCs
-===========
+public-pocs/deploying-lisp-scripts
+==================================
 
-My (m-e-leypold, see also
-https://www.glitzersachen.de/site/about-me.html) proofs of concept.
+Demonstrates how to
+
+- Use lisp scripts locally, running from a user specfic environment of
+  Quicklisp and ASDF systems.
+- Deploy them so that they run from the system wide installed ASDF
+  systems.
+- Package Lisp scripts and ASDF systems into a ```pacman``` (Arch
+  Linux) package.
 
 License
 -------
 
 Everything here is licensed to you under the Gnu Public License 
 
-    Public Proof of Concept Code.
+    public-pocs/deploying-lisp-scripts - Public Proof of Concept Code.
     Copyright (C) 2022-2023  M E Leypold
 
     This program is free software: you can redistribute it and/or modify
@@ -24,11 +30,3 @@ Everything here is licensed to you under the Gnu Public License
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Directory
----------
-
-- [deploying-lisp-scripts](./deploying-lisp-scripts) --- Deploying
-  ASDF systems and lisp scripts as system packages.
-
-
