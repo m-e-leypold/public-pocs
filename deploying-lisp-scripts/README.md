@@ -3,7 +3,7 @@ public-pocs/deploying-lisp-scripts
 
 Demonstrates how to
 
-- Use lisp scripts locally, running from a user specfic environment of
+- Use lisp scripts locally, running from a user specific environment of
   Quicklisp and ASDF systems.
 - Deploy them so that they run from the system wide installed ASDF
   systems.
